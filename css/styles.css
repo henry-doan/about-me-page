@@ -1,0 +1,158 @@
+body{
+  min-width: 99%;
+  min-height: 99%;
+  position: absolute;
+  padding: 5px;
+}
+/* background */
+.background{
+  position: relative !important;
+  left: 0 !important;
+  top: 0 !important; /* !important is useful while editing */
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+.right {
+    right: 10px;
+    left: auto !important;
+    left: initial !important;
+}
+
+.bottom {
+    bottom: 100px;
+    height: auto !important;
+    height: initial !important;
+}
+
+@media (min-width: 800px) {
+    .static {
+        position: fixed !important;
+    }
+}
+
+.sidebar {
+    margin: 10px;
+}
+
+.labels {
+    line-height: 45px;
+}
+
+.background-pic {
+    position: absolute;
+    cursor: auto;
+    background-image: url('../assets/slc.jpg');
+    background-attachment: fixed;
+    background-color: rgb(0, 2, 59);
+    background-size: cover;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.box-centered {
+    top: 5px;
+    left: 117px;
+    width: 735px;
+    height: 1041px;
+    z-index: 100;
+    position: absolute;
+    box-sizing: content-box;
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+}
+
+.box-content {
+    border-radius: 5px;
+    top: 20px;
+    left: 53px;
+    width: 474px;
+    height: 740px;
+    right: 0px;
+    position: absolute;
+    box-sizing: content-box;
+    background-color: rgb(255, 255, 255);
+    background-position: 0% 0%;
+    background-repeat: repeat;
+}
+
+.Line {
+    border-width: 0px 0px 1px;
+    border-style: solid;
+    border-color: rgb(139, 139, 139);
+    top: 95px;
+    left: 10px;
+    width: 450px;
+    height: 10px;
+    position: absolute;
+    background-color: transparent;
+}
+
+.title-top {
+    top: 21px;
+    left: 0px;
+    height: 75px;
+    right: 0px;
+    position: absolute;
+    box-sizing: content-box;
+    width: 474px;
+    background-color: transparent;
+}
+
+
+.intro {
+    top: 130px;
+    left: 33px;
+    width: 411px;
+    height: 435px;
+    position: absolute;
+    box-sizing: content-box;
+    border-color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+.bottom-social {
+    height: 53px;
+    width: 300px;
+    top: 680px;
+    left: 150px;
+    position: absolute;
+    box-sizing: content-box;
+    border-color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+
+.skills{
+    height: 280px;
+    width: 169px;
+    top: 480px;
+    left: 150px;
+    position: relative;
+    box-sizing: content-box;
+}
+
+.githubbadge {
+    height: 128px;
+    width: 201px;
+    top: 25px;
+    left: 775px;
+    position: absolute;
+    z-index: 200;
+    background-color: transparent;
+}
+
+
+.sidesocial {
+    height: 205px;
+    width: 35px;
+    top: 111px;
+    left: 0px;
+    z-index: 200;
+    position: absolute;
+    box-sizing: content-box;
+    border-color: rgb(0, 0, 0);
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgba(255, 255, 255, 0.694118);
+}
+
